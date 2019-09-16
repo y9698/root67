@@ -7,7 +7,7 @@ url = "https://pypi.org/simple"
 gunicorn = "*"
 Flask = "*"
 numpy = "*"
-tf-nightly = "==1.13.0.dev20190104"
+tensorflow = "==1.13.0.dev20190104"
 keras = "*"
 
 [requires]
