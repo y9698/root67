@@ -13,7 +13,7 @@ app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
 app.debug = True
 
-model = load_model('my_model2.h5')
+model = load_model('my_model3.h5')
 graph = tf.get_default_graph()
 
 @app.route('/', methods=['POST'])
